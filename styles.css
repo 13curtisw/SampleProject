@@ -1,0 +1,243 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#container{
+	width: 600px;
+	margin: 0 auto;
+	background-color: white;
+	font-family: sans-serif;
+	font-size: 8pt;
+}
+#header{
+	height: 45px;
+	background: linear-gradient(#FAFAFA, #EDEDED 50%, #C9C9C9);
+	border-radius: 4px;
+	margin-bottom: 10px
+}
+#header table{
+	border-collapse: collapse;
+	display: inline-block;
+}
+#header table tr td{
+	height: 45px;
+	width: 55px;
+	border-right: 1px solid #C9C9C9	;
+	text-align: center;
+	font-size: 8pt;
+	font-weight: bold;
+
+}
+#logo{
+	background-image: url("menu_icon1.png");
+	width: 50px;
+	background-size: contain;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+#search{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 15px;
+	margin-left: 90px;
+	background-color: white;
+	border-radius: 9px;
+	height: 19px;
+	padding-left: 5px;
+}
+#searchbar{
+	width: 90px;
+	vertical-align: top;
+	border: none;
+	height: 19px;
+}
+#searchicon{
+	vertical-align: top;
+	margin-top: 5px;
+}
+#browseicon{
+	vertical-align: top;
+	margin-top: 1px;
+}
+#search img{
+	vertical-align: top;
+}
+#graphic{
+	background-color: #424242;
+	height: 290px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	margin-bottom: 10px;
+}
+#graphic img{
+	min-width: 600px;
+	margin-bottom: 7px;
+}
+#graphic ul{
+	margin-left: 10px;
+}
+#graphic ul li{
+	display: inline-block;
+	color: #4E88AE;
+	padding: 0px 5px;
+	font-size: 6pt;
+}
+#graphic ul li:first-child{
+	color: white;
+}
+#graphic ul li pre span{
+	color: #8A8A8A;
+}
+pre{
+	font-family: "Consolas", "Lucida Console", monospace;
+}
+#content{
+	height: 305px;
+	border: 1px solid #DBDBDB;
+	border-radius: 5px;
+	background: linear-gradient(white, #E8E8E8);
+	padding: 15px 0px;
+	margin-bottom: 30px;
+}
+#contentheader{
+	height: 50px;
+	padding-left: 20px;
+	border-bottom: 1px solid #DBDBDB;
+	margin-bottom: 30px;
+}
+h2{
+	font-weight: lighter;
+	font-size: 16pt;
+	color: #ABABAB;
+	display: inline-block;
+	border-right: 1px solid #D1D1D1;
+	padding-right: 10px;
+	padding-top: 5px;
+	height: 30px;
+	margin-right: 20px;
+}
+#contentheader button{
+	width: 170px;
+	height: 30px;
+	background: linear-gradient(#5794C1, #437B9E);
+	border: 0px;
+	border-radius: 4px;
+	color: #F0F0F0;
+}
+#contentheader button i{
+	margin-left: 30px;
+}
+#info{
+	height: 200px;
+	border-bottom: 1px solid #D1D1D1;
+	padding-left: 10px;
+}
+.infopane{
+	height: 172px;
+	width: 120px;
+	display: inline-block;
+	padding: 0px 10px;
+	vertical-align: top;
+	border-right: 1px solid #D1D1D1;
+
+}
+.infopane h3{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.infopane p{
+	font-size: 6pt;
+	margin-bottom: 5px;
+	height: 25px;
+}
+.infopane .picture{
+	width: 120px;
+	margin-bottom: 10px;
+	height: 80px;
+}
+.button{
+	height: 20px;
+	width: 120px;
+	background: linear-gradient(#5DB1F1, #468DBD);
+	border: 0px;
+	color: #F0F0F0;
+	border-radius: 3px;
+	font-size: 8pt;
+}
+#buy{
+	border-right: 0px;
+}
+#links{
+	height: 180px;
+	border-bottom: 1px solid #D1D1D1;
+	margin-bottom: 15px;
+}
+.links{
+	height: 180px;
+	width: 90px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 6pt;
+	margin-right: 9px;
+	line-height: 20px;
+}
+.links h3{
+	border-bottom: 1px solid #D1D1D1;
+	margin-bottom: 10px;
+}
+.links ul li{
+	list-style-type: none;
+}
+#oaktree{
+	margin-right: 0px;
+}
+#footer table tr td{
+	border-right: 1px solid #D1D1D1;
+	padding: 0px 10px;
+	margin-right: 10px;
+	font-size: 6pt;
+}
+#footer table tr td:first-child{
+	padding-left: 0px;
+}
+#footer table tr td:last-child{
+	border-right: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
